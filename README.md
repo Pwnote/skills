@@ -19,6 +19,19 @@ Skills are folders of instructions, scripts, and resources that agents load dyna
 
 Pwnote Skills extend the [Pwnote](https://pwnote.com) pentest platform, giving agents domain-specific knowledge for security assessments, bug bounty hunting, certification exams, and CVE research.
 
+## Gallery
+
+<table>
+  <tr>
+    <td><img src="media/documents.png" alt="Documents" width="100%"></td>
+    <td><img src="media/graphs.png" alt="Attack path graphs" width="100%"></td>
+  </tr>
+  <tr>
+    <td align="center"><em>Documents</em></td>
+    <td align="center"><em>Attack path graphs</em></td>
+  </tr>
+</table>
+
 ## Installation
 
 ```bash
