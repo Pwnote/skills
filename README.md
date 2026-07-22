@@ -17,7 +17,7 @@
 
 Skills are folders of instructions, scripts, and resources that agents load dynamically to improve performance on specialized tasks. They teach AI agents how to complete specific pentest workflows in a repeatable way — generating engagement files, automating recon, formatting findings, and integrating with external tooling.
 
-Pwnote Skills extend the [Pwnote](https://pwnote.com) pentest platform, giving agents domain-specific knowledge for security assessments, bug bounty hunting, certification exams, and CVE research.
+Pwnote Skills extend the Pwnote pentest platform, giving agents domain-specific knowledge for security assessments, bug bounty hunting, certification exams, and CVE research.
 
 ## Gallery
 
