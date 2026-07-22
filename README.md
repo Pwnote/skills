@@ -8,8 +8,6 @@
 
 <p align="center">
   <a href="https://skills.sh/Pwnote/skills"><img src="https://skills.sh/b/Pwnote/skills" alt="skills.sh"></a>
-  <a href="https://github.com/Pwnote/skills"><img src="https://img.shields.io/github/stars/Pwnote/skills?style=flat&label=Stars" alt="Stars"></a>
-  <a href="https://agentskills.io"><img src="https://img.shields.io/badge/Agent%20Skills-v1-8250DF?style=flat" alt="Agent Skills"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue?style=flat" alt="License"></a>
 </p>
 
