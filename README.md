@@ -1,7 +1,5 @@
 > **Note:** This repository contains Pwnote's implementation of skills for pentest workflow automation. For information about the Agent Skills standard, see [agentskills.io](http://agentskills.io).
 
-[![skills.sh](https://skills.sh/b/Pwnote/skills)](https://skills.sh/Pwnote/skills)
-
 # Pwnote Skills
 
 Skills are folders of instructions, scripts, and resources that agents load dynamically to improve performance on specialized tasks. Skills teach agents how to complete specific pentest workflows in a repeatable way - generating engagement files, automating recon, formatting findings, and integrating with external tooling.
