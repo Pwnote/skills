@@ -3,6 +3,16 @@ name: pwnote-engagement-file
 description: Create or validate a pwnote engagement import/export JSON file. Use when the user wants to generate, edit, or verify a pwnote engagement file for data transfer between pwnote instances. The file bundles an entire pentest engagement — metadata, notebook documents, code/host/credential blocks, findings with CVSS/cwe/cve, attack-path boards, and activity history. Also use when the user asks how to structure such a file, needs a template, or wants to programmatically generate one from external tooling.
 ---
 
+## Security
+
+This skill handles credentials and secrets for pwnote data transfer between instances. Follow these rules:
+
+- Never output real credential `secret` values in public contexts (writeups, reports, chat)
+- Never log, echo, or print plaintext secrets outside the generated JSON file
+- Credential blocks with `sensitive: true` are for internal pwnote import/export only
+- Treat `requestBody`, `requestHeaders`, `responseBody` fields as potentially sensitive — redact before sharing externally
+- The `secret` field is the only field that stores sensitive values; all other credential fields (`username`, `secretType`, `source`) are metadata and safe to reference
+
 ## Installation
 
 ```bash
@@ -115,7 +125,7 @@ Use `level: 1` for document titles, `level: 2` for major sections, `level: 3` fo
 | `ports` | string[] | yes | Port list, e.g. `["22/tcp", "80/tcp", "443/tcp"]` |
 | `notes` | string | no | Free-text notes |
 
-**`"credential"`** — Credential (sensitive)
+**`"credential"`** — Credential (sensitive). Only emit `secret` values in the generated JSON file — never output them anywhere else.
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
 | `username` | string | yes | Username |
