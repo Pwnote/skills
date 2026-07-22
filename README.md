@@ -13,7 +13,7 @@ This repository contains skills for Pwnote's pentest platform. Each skill is sel
 ## Installation
 
 ```bash
-npx skills add Pwnote/skills
+npx skills add https://github.com/Pwnote/skills --skill pwnote-engagement-file
 ```
 
 ## Available Skills
