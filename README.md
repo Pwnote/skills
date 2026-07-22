@@ -3,6 +3,12 @@ name: pwnote-engagement-file
 description: Create or validate a pwnote engagement import/export JSON file. Use when the user wants to generate, edit, or verify a pwnote engagement file for data transfer between pwnote instances. The file bundles an entire pentest engagement — metadata, notebook documents, code/host/credential blocks, findings with CVSS/cwe/cve, attack-path boards, and activity history. Also use when the user asks how to structure such a file, needs a template, or wants to programmatically generate one from external tooling.
 ---
 
+## Installation
+
+```bash
+npx skills add Pwnote/skills
+```
+
 # Pwnote Engagement File Format
 
 Reference for creating or editing pwnote engagement import/export JSON files. A valid file contains all data for one pentest engagement and can be imported via Settings → Import or the workspace Import button.
