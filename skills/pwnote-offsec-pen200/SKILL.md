@@ -1,11 +1,17 @@
 ---
 name: pwnote-offsec-pen200
-description: Use whenever the user is working on Offsec's PEN-200 course/OSCP — PWK lab notes, exam report drafting, screenshot/evidence discipline, or proof.txt/local.txt handling. Trigger on "OSCP", "PEN-200", "PWK", "OSCP exam report", or "proof.txt", even without the word "skill".
+description: Use whenever the user is working on Offsec's PEN-200 course/OSCP — PWK lab notes, exam report drafting, screenshot/evidence discipline, or exam flag handling. Trigger on "OSCP", "PEN-200", "PWK", "OSCP exam report", or "proof.txt", even without the word "skill".
 ---
 
 # Offsec PEN-200 / OSCP Workflow
 
 Reference for structuring PWK lab notes and producing an exam report that meets Offsec's grading requirements. Offsec grades on documentation completeness as much as exploitation success — sloppy evidence fails an otherwise-successful exam.
+
+## Security
+
+- Flag values (`local.txt`, `proof.txt`) are only included verbatim in private exam report submissions
+- Never output flag values in public contexts (writeups, blogs, shared notes) — use `<REDACTED>`
+- Screenshots with flags are for exam submission only; redact before sharing publicly
 
 ## 1. Exam Report Structure
 
