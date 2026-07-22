@@ -2,7 +2,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="media/icon.svg">
     <source media="(prefers-color-scheme: light)" srcset="media/icon.svg">
-    <img src="media/logo.webp" alt="Pwnote" width="320">
+    <img src="media/logo.webp" alt="Pwnote" width="200">
   </picture>
 </p>
 
