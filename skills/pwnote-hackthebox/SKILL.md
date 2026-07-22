@@ -1,5 +1,5 @@
 ---
-name: hackthebox
+name: pwnote-hackthebox
 description: Use whenever the user is working a HackTheBox (HTB) machine or challenge — structuring recon/foothold/privesc notes, building an enumeration checklist, tracking a multi-hop attack path, or writing a writeup (respecting HTB's retirement rules before publishing). Trigger on "HTB", "HackTheBox box", "pwn this machine", or "root this box", even without the word "skill".
 ---
 

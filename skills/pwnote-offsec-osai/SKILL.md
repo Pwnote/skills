@@ -1,5 +1,5 @@
 ---
-name: offsec-osai
+name: pwnote-offsec-osai
 description: Use whenever the user is working on Offsec's OSAI / AI Red Teaming certification track, or on AI/LLM/agentic security engagements generally — prompt injection findings, tool-use abuse, agent trajectory documentation, or writing up AI-specific security findings that don't map cleanly to traditional CVSS. Trigger on "OSAI", "AI Red Teaming", "LLM pentest", "prompt injection engagement", or "agentic AI exploitation", even without the word "skill".
 ---
 

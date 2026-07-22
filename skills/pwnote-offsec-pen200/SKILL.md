@@ -1,5 +1,5 @@
 ---
-name: offsec-pen200
+name: pwnote-offsec-pen200
 description: Use whenever the user is working on Offsec's PEN-200 course/OSCP — PWK lab notes, exam report drafting, screenshot/evidence discipline, or proof.txt/local.txt handling. Trigger on "OSCP", "PEN-200", "PWK", "OSCP exam report", or "proof.txt", even without the word "skill".
 ---
 

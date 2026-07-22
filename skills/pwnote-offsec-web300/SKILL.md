@@ -1,5 +1,5 @@
 ---
-name: offsec-web300
+name: pwnote-offsec-web300
 description: Use whenever the user is working on Offsec's WEB-300 course/OSWE — whitebox source code review methodology, exploit chain documentation, PoC scripting, or OSWE exam report writing. Trigger on "OSWE", "WEB-300", "whitebox", "source code review" in a pentest context, or "exploit chain", even without the word "skill".
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: tryhackme
+name: pwnote-tryhackme
 description: Use whenever the user is working through a TryHackMe (THM) room — taking structured notes per task, writing a public-facing writeup or blog post, tracking flags, or dealing with THM-specific tooling (AttackBox, OpenVPN connection issues). Trigger on "TryHackMe", "THM room", "writeup for [room name]", or "walkthrough", even without the word "skill".
 ---
 

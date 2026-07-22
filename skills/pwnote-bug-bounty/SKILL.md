@@ -1,5 +1,5 @@
 ---
-name: bug-bounty
+name: pwnote-bug-bounty
 description: Use whenever the user is working a bug bounty program — parsing scope/rules of engagement, planning or running recon, triaging findings, writing up a report for HackerOne/Bugcrowd/Intigriti/YesWeHack, handling program manager pushback or duplicate/N-A disputes, or asking how to structure notes for a bounty target. Trigger on mentions of "bug bounty", "program scope", "recon on [target]", "write this up for H1/Bugcrowd/Intigriti", "triage", or "dupe claim", even if the user doesn't use the words "skill" or "bounty" explicitly.
 ---
 
