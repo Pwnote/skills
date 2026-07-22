@@ -29,7 +29,7 @@ npx skills add https://github.com/Pwnote/skills
 npx skills add https://github.com/Pwnote/skills --skill pwnote-bug-bounty
 ```
 
-> **Prerequisite:** You need a Pwnote account and an AI agent that supports the Agent Skills protocol.
+> **Prerequisite:** Pwnote account + AI agent.
 
 ## Available Skills
 
